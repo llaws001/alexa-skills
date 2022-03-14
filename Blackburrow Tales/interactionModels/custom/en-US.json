@@ -1,0 +1,230 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "blackburrow tales",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ListTalesIntent",
+          "slots": [],
+          "samples": [
+            "what is available for play",
+            "what tales can I play",
+            "tales",
+            "list tales",
+            "what can I play"
+          ]
+        },
+        {
+          "name": "TutorialIntent",
+          "slots": [],
+          "samples": [
+            "i want a tutorial",
+            "let\u0027s do the tutorial",
+            "paly tutorial",
+            "tutorial"
+          ]
+        },
+        {
+          "name": "FullMoonIntent",
+          "slots": [],
+          "samples": [
+            "full moon",
+            "play full moon",
+            "let\u0027s play full moon"
+          ]
+        },
+        {
+          "name": "FullMoonDecisionIntent",
+          "slots": [
+            {
+              "name": "userInputFullMoon",
+              "type": "userInput"
+            }
+          ],
+          "samples": [
+            "{userInputFullMoon}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "scope it out",
+                "synonyms": [
+                  "scope out the place",
+                  "scope out",
+                  "scope out the location",
+                  "scope location",
+                  "scope out location"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "wait until full moon",
+                "synonyms": [
+                  "wait to go",
+                  "wait",
+                  "wait for full moon",
+                  "wait full moon",
+                  "wait for moon"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "chase it",
+                "synonyms": [
+                  "chase",
+                  "follow ",
+                  "follow it",
+                  "chase monster",
+                  "chase",
+                  "chase beast",
+                  "chase the creature"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "shoot the beast",
+                "synonyms": [
+                  "shoot",
+                  "shoot monster",
+                  "shoot wolf",
+                  "shoot creature",
+                  "shoot it"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "go to camp",
+                "synonyms": [
+                  "camp",
+                  "go camp",
+                  "go now to camp",
+                  "go to camp now",
+                  "the camp"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tell the chief",
+                "synonyms": [
+                  "talk to chief",
+                  "tell chief"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "go to tavern",
+                "synonyms": [
+                  "the tavern",
+                  "tavern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "case file",
+                "synonyms": [
+                  "file",
+                  "case",
+                  "read the case file",
+                  "the case file"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "location",
+                "synonyms": [
+                  "victim location",
+                  "location of last victim",
+                  "last location",
+                  "last known location",
+                  "go to the location"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "claw marks",
+                "synonyms": [
+                  "follow claw marks",
+                  "the claw marks"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "notify chief",
+                "synonyms": [
+                  "chief",
+                  "notify",
+                  "notify the chief"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "continue firing",
+                "synonyms": [
+                  "continue shooting",
+                  "keep firing",
+                  "fire",
+                  "keep shooting"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "run",
+                "synonyms": [
+                  "leave",
+                  "flee"
+                ]
+              }
+            }
+          ],
+          "name": "userInput"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "47"
+}

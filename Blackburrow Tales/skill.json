@@ -1,0 +1,84 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "\"Blackburrow Tales\" contains a series of short horror stories controlled by you. You make all of the character\u0027s key decisions throughout the story.",
+          "examplePhrases": [
+            "Alexa, open Blackburrow Tales",
+            "Let\u0027s play Full Moon",
+            "Tutorial"
+          ],
+          "keywords": [
+            "horror",
+            "game",
+            "choose",
+            "your",
+            "own",
+            "story",
+            "scary",
+            "game",
+            "halloween",
+            "game",
+            "spooky",
+            "thriller",
+            "werewolf",
+            "blackburrow",
+            "tales"
+          ],
+          "name": "Blackburrow Tales",
+          "description": "\"Blackburrow Tales\" is a mature game. Please be mindful of those around you. \n\n\"Blackburrow Tales\" contains a series of short horror stories controlled by you. You make all of the character\u0027s key decisions throughout the story.\nWill the main character perish, or will they stand against evil? You decide. \n\nEach story has multiple endings. We recommend you use a piece of paper to keep track of the different story arcs. That will allow you to achieve your desired ending.\n\n-----------------\nUseful Phrases\n-----------------\n\nFor a brief tutorial, say \"tutorial\".\n\nThe following are useful phrases for the tale \"Full Moon\"\n- let\u0027s play full moon\n- go to location\n- read case file\n- scope it out\n- wait until full moon\n- chase it\n- shoot the beast\n- go to camp\n- tell the chief\n- go to tavern\n- claw marks\n- notify chief\n- run\n\nAdditionally, if you receive a message stating you have not reached that portion of the game, try to say your phrase differently. \n\n\nAdditional skills from Liberation studios:\n\n\"Everybody Drinks\" - Full of classic party games\n\"Options Trading Teacher\" - Learn how to trade U.S stock options\n\"Daily Business Quote\" - Daily quotes from business titans\n\nCredits:\nThanks to zapsplat for the audio and a big thanks to Gustavo for the art work!",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "- Open the skill by saying \"open blackburrow tales\"\n- List tales by saying \"list tales\"\n- Start a tale by saying \"let\u0027s play *tale name*\"\n- Each story component ends with a sentence describing specific actions you can take. You can say things like \"read case file\" or \"go to location\". I added a lsit to the description section.\n- Each section has a re-prompt that will trigger after 8 seconds. If the user says nothing, the skill will end. \n- The entire story consists of a series of IF statements. I have added else statements to stop people from skipping ahead in the story.",
+      "category": "CHOOSE_YOUR_OWN_STORY",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:889042941828:function:aee59f28-fe90-4df3-8be9-26a51f0890db:Release_1"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:889042941828:function:aee59f28-fe90-4df3-8be9-26a51f0890db:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:889042941828:function:aee59f28-fe90-4df3-8be9-26a51f0890db:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:889042941828:function:aee59f28-fe90-4df3-8be9-26a51f0890db:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "removed since the site is no longer available"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
